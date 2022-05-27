@@ -22,4 +22,78 @@ body{
     margin-left: 30px;
     color:
 }
+.image img{
+	float: right;
+	height: 500px;
+	width: 800px;
+	margin-top: 30px;	
 
+	
+	border-radius:5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+.imagee img{
+	height: 500px;
+	width: 500px;
+	margin-top: 30px;
+
+
+	border-radius:5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+	}
+.imageee img{
+	.image img{
+	float: right;
+	height: 300px;
+	width: 100px;
+}
+}
+
+.club{
+	float: left;
+	margin-left: 15%;
+	margin-top: 150px;
+	width: 25%;
+	height: 400px;
+	text-align: center;
+	 background-color: coral;
+	
+	border-radius:5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+.club2{
+	float: right;
+	margin-left: 5%;
+ 	margin-right: 5%;
+	margin-top: 100px;
+	width: 25%;
+	height: 350px;
+	text-align: center;
+	background-color: rgb(135,206,235);
+	
+	border-radius:5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+.club3{
+	float: right;
+	margin-left: 5%;
+ 	margin-right: 5%;
+	margin-top: 50px;
+	width: 25%;
+	height: 400px;
+	text-align: center;
+	background-color: rgb(255,193,37);
+	
+	border-radius:5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+.size{
+width: 70%;
+height: 700px;
+
+}
