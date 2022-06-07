@@ -157,6 +157,7 @@ div.horizontal {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 div.container-body {
@@ -483,7 +484,7 @@ img.badminton-img{
     -ms-transform: translate(-50%, -50%);
     transform: translate(20%, 40%);
     position: absolute;
-    border-radius: 5%;
+    border-radius: 2%;
     
 }
 
@@ -493,7 +494,7 @@ img.football-img{
     -ms-transform: translate(-50%, -50%);
     transform: translate(130%, 40%);
     position: absolute;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 img.guitar-img{
@@ -502,7 +503,7 @@ img.guitar-img{
     -ms-transform: translate(-50%, -50%);
     transform: translate(20%, 40%);
     position: absolute;
-    border-radius: 5%;
+    border-radius: 2%;
 
 }
 
@@ -512,7 +513,7 @@ img.krt-img{
     -ms-transform: translate(-50%, -50%);
     transform: translate(130%, 40%);
     position: absolute;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 div.football-content{
@@ -545,16 +546,113 @@ div.krt-content{
 div.title{
     width: 100%;
     height: 50px;
-    background-color: black;
+    background-color: white;
     float: left;
     position: absolute;
     -ms-transform: translate(-50%, -50%);
     transform: translate(0, 60%);
     z-index: 120;
-    color: white;
+    color: black;
 }
 
 p.text{
     text-align: center;
     font-size: 2em;
+}
+
+div.body-img{
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+img.body-img{
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    transform: translate(0,-15%);
+}
+
+div.horizontal-body{
+    width: 100%;
+    height: 1px;
+    float: left;
+    background-color: #ADADAD;
+}
+
+div.body-quote{
+    width: 55%;
+    height: 150px;
+    position: absolute;
+    transform: translate(10%,30%);
+    z-index: 100;
+    
+}
+
+div.badminton-text, div.football-text{
+    width: 40%;
+    height: 50%;
+    float: left;
+    position: absolute;
+    transform: translate(135%,-100%);
+}
+
+div.guitar-text, div.krt-text{
+    width: 40%;
+    height: 50%;
+    float: left;
+    position: absolute;
+    transform: translate(20%,-100%);
+    color: white;
+}
+
+div.horizontal-adv{
+    width: 100%;
+    height:10px;
+    float: left;
+    position: relative;
+    background-color: #fff;
+}
+
+div.horizontal-left{
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    transform: translate(500%,0);
+    background-color: #757575;
+}
+
+div.horizontal-right{
+    width:55%;
+    height:1px;
+    position: absolute;
+    transform: translate(50%,0);
+    background-color: #757575;
+}
+
+div.vertical-dark{
+    width:1px;
+    height:60%;
+    background-color: #757575;
+    margin: auto;
+    margin-top: 10%;
+}
+
+div.vertical-light{
+    width:1px;
+    height:60%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+}
+
+div.discover-more{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    margin-top: 100px;
 }
