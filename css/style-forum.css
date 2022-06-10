@@ -1,0 +1,27 @@
+body{
+    margin: auto 0;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.heading{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.footing{
+    width: 100%;
+    height: auto;
+    float: left;
+}
