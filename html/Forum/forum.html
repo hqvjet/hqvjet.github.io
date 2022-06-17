@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../../css/style-forum.css">
+        <script src="https://kit.fontawesome.com/6fd2565091.js" crossorigin="anonymous"></script>
+        <script src="../../js/jquery-3.6.0.js"></script>
+        <script src="../../js/js-forum.js"></script>
+    </head>
+
+    <body>
+        <div class="Navigation">    
+            <div class="heading">
+                <!-- Logo-->
+                <div class="Logo">
+                    <a href="../../index.html">
+                        <img src="../../icons/Logo.png" alt="logo"
+                        class="LogoImg">
+                    </a>
+                </div>
+                <!-- Which club?-->
+                <div class="Club">
+                    <h1 id="club">All club</h1>
+                        <div class="clubChild" style="margin-top: 10px;">
+                            <span style="float: left; margin-left: 10px;" id="badminton" class="clubChilds">Cầu lông</span>
+                            <span id="guitar" class="clubChilds">Guitar</span>
+                            <span style="float: right; margin-right: 10px;" id="football" class="clubChilds">Bóng đá</span>
+                        </div>
+                        <div class="clubChild">
+                            <span style="float: left; margin-left: 10px;" id="bookreader" class="clubChilds">Đọc sách</span>
+                            <span id="dancing" class="clubChilds">Nhảy</span>
+                            <span style="float: right; margin-right: 10px;" id="volleyball" class="clubChilds">Bóng chuyền</span>
+                        </div>
+                        <div class="clubChild">
+                            <span style="float: left; margin-left: 10px;" id="esport" class="clubChilds">Esport</span>
+                            <span id="skill" class="clubChilds">Kĩ năng</span>
+                            <span style="float: right; margin-right: 10px;" id="opensrc" class="clubChilds">Mã nguồn mở</span>
+                        </div>
+                        <div class="clubChild">
+                            <span style="float: left; margin-left: 10px;" id="coder" class="clubChilds">Lập trình</span>
+                            <span id="all" class="clubChilds">Tất cả</span>
+                            <span style="float: right; margin-right: 10px;" id="hih" class="clubChilds">Hand in hand</span>
+                        </div>
+                </div>
+                <!-- Search bar-->
+                <div class="SearchBar">
+                    <input type="text" placeholder="Search..">
+                </div>
+                <!-- Search Button-->
+                <div class="SearchButton">
+                    <i class="fa-solid fa-magnifying-glass" style="margin-top:7px;"></i>
+                </div>
+                <!-- User-->
+                <div class="User">
+                    <!-- Option-->
+                    <div id="option">
+                        <div class="element">
+                            <p>Hoang Viet</p>
+                            <p>Profile</p>
+                            <p>Logout</p>
+                        </div>
+                    </div>
+                    <!-- Avatar-->
+                    <div id="avatar">
+                        <img src="../../imgs/backgrounds/avt.jpg"
+                        alt="avatar" class="avatarImg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+            <div class="main">
+            
+                <div class="body">
+                    <!-- For contents from another div-->
+                    
+                    <div id="contentContainer">
+
+                        <div style="width: 100%; height: 1px;"></div>
+                        <div id="content1">
+                            <div id="topic1"></div>
+                            <div id="username1"></div>
+                            <div id="type1"></div>
+                        </div>
+                        <div id="content2">
+                            <div id="topic2"></div>
+                            <div id="username2"></div>
+                            <div id="type2"></div>
+                        </div>
+                        <div id="content3">
+                            <div id="topic3"></div>
+                            <div id="username3"></div>
+                            <div id="type3"></div>
+                        </div>
+                        <div id="content4">
+                            <div id="topic4"></div>
+                            <div id="username4"></div>
+                            <div id="type4"></div>
+                        </div>
+                        <div id="content5">
+                            <div id="topic5"></div>
+                            <div id="username5"></div>
+                            <div id="type5"></div>
+                        </div>
+                    </div>
+                    <!-- Pagination-->
+                    <div class="pagination-ctn">
+                        <ul id="pagination">
+                
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footing">
+
+                </div>
+            </div>
+    </body>
+</html>

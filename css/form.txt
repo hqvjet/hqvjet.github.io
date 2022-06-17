@@ -1,2 +1,0 @@
-style-link-name.css
-ex: style-html-user-login.css

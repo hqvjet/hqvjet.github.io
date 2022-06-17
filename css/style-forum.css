@@ -1,0 +1,261 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto 0;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+}
+
+.main{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+}
+
+.heading{   /*Navigation bar*/
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #1F2A29;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.footing{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+
+.NavigationBar{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.Logo{
+    width: 5%;
+    height: 80%;
+    position: absolute;
+    transform: translate(100%,10%);
+}
+
+.LogoImg{
+    width: 60px;
+    height: 60px;
+}
+
+.Club{
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    width: 25%;
+    height: 80%;
+    transform: translate(60%, 10%);
+    background-color: #1F2A29;
+    transition: height 1s, opacity 1s;
+    opacity: 1;
+}
+
+.Club:hover{
+    height: 400%;
+    opacity: 0.8;
+}
+
+.clubChild{
+    text-align: center; 
+    margin-top: 25px;
+    color: #EAEAEA;
+}
+
+#badminton:hover,
+#guitar:hover,
+#football:hover,
+#bookreader:hover,
+#dancing:hover,
+#volleyball:hover,
+#esport:hover,
+#skill:hover,
+#opensrc:hover,
+#coder:hover,
+#all:hover,
+#hih:hover{
+    background-color: black;
+}
+
+.clubChilds{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.SearchBar input[type=text] {
+    left: 30%;
+    border: none;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    border-radius: 5px;
+  }
+
+.SearchBar{
+    width: 30%;
+    height: 40px;
+    position: absolute;
+    transform: translate(120%, 35%);
+   
+}
+
+.SearchButton{
+    position: absolute;
+    width: 5%;
+    height: 45px;
+    transform: translate(1350%, 28%);
+    font-size: 2em;
+    background-color: rgb(0, 150, 60);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.User{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    transform: translate(550%, 20%);
+}
+
+#option{
+    width: 60%;
+    height: 80%;
+    margin-top: 2%;
+    float: left;
+    margin-left: 5%;
+}
+
+#avatar{
+    width: 20%;
+    height: 80%;
+    margin-top: 2%;
+    float: left;
+    margin-left:10%;
+}
+
+.avatarImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.element{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    transition: height 1s, opacity 1s;
+    background-color: #1F2A29;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.element:hover{
+    height: 290%;
+    opacity: 0.8;
+}
+
+#contentContainer{
+    width: 70%;
+    height: 1000px;
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: #F0F0F0;
+}
+
+.pagination-ctn{
+    width: 100%;
+    height: 100px;
+}
+
+#pagination{
+    list-style-type: none;
+    text-align: center;
+    margin-top:20px;
+}
+
+.pag-item{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 1000px;
+    font-size: 1em;
+    margin-left: 5px;
+    transition: padding 1s, font-size 1s;
+}
+
+.pag-item:hover{
+    padding: 20px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#topic1, #topic2, #topic3, #topic4, #topic5{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2em;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    text-shadow: 0 0 black;
+    transition: color 1s, text-shadow 0.5s;
+}
+
+#topic1:hover, 
+#topic2:hover, 
+#topic3:hover, 
+#topic4:hover, 
+#topic5:hover{
+    color: #fff;
+    text-shadow: 2px 2px #005A27;
+}
+
+#content1, #content2, #content3, #content4, #content5{
+    width: 80%;
+    height: 150px;
+    margin-top: 40px;    
+    margin-left: 10%;
+    background-color: #fff;
+    text-align: left; 
+    box-shadow: 1px 1px 1px 1px #1F2A29;
+}
+
+#username1, #username2, #username3, #username4, #username5, #type1, #type2, #type3, #type4, #type5{
+    float: left;
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 0.7em;
+}
+
+.active{
+    background-color: #353535 !important;
+    color: white !important;
+}
+
+.disable{
+    pointer-events: none;
+    opacity: 0.3;
+}
+
