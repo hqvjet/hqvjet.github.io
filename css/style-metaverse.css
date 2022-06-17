@@ -1,0 +1,242 @@
+.actionJoin {
+    width: 50px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 2%;
+    background-color: rgb(230, 46, 230);
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  
+    border-radius: 10%;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+  }
+  
+  @keyframes example {
+    0% {
+      background-color: rgb(97, 2, 99);
+      left: 120px;
+      top: 110px;
+    }
+  
+    25% {
+      background-color: rgb(2, 73, 105);
+      left: 250px;
+      top: 90px;
+    }
+  
+    50% {
+      background-color: rgb(119, 3, 69);
+      left: 120px;
+      top: 220px;
+    }
+  
+    75% {
+      background-color: rgb(128, 62, 0);
+      left: -10px;
+      top: 90px;
+    }
+  
+    100% {
+      background-color: rgb(115, 3, 119);
+      left: 120px;
+      top: 110px;
+    }
+  }
+  
+  .actionJoin1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 41%;
+  
+    background-color: rgb(230, 46, 230);
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 10%;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+  }
+  
+  @keyframes example1 {
+    0% {
+      background-color: rgb(170, 6, 175);
+      left: 120px;
+      top: 220px;
+    }
+  
+    25% {
+      background-color: rgb(10, 114, 161);
+      left: -10px;
+      top: 90px;
+    }
+  
+    50% {
+      background-color: rgb(180, 4, 101);
+      left: 120px;
+      top: 110px;
+    }
+  
+    75% {
+      background-color: rgb(163, 83, 7);
+      left: 250px;
+      top: 90px;
+    }
+  
+    100% {
+      background-color: rgb(179, 4, 185);
+      left: 120px;
+      top: 220px;
+    }
+  }
+  
+  .actionBorder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    animation-name: actionBorderr;
+    border: 5px solid rgba(17, 82, 224, 0.2);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+  
+  @keyframes actionBorderr {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .bg {
+    background-image: url("https://static-images.vnncdn.net/files/publish/2022/5/24/dubai-tien-manh-vao-metaverse-91ddf33ed2424a7ab852e4636394dc81.jpg");
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .boText {
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 40%;
+  
+    border: 5px solid black;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    -moz-box-align: center;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .boText1 {
+    float: left;
+    margin-bottom: 5%;
+  
+    border: 5px solid black;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    -moz-box-align: center;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .text {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 40px;
+  }
+  
+  .text1 {
+    font-size: 20px;
+  }
+  
+  .club {
+    padding: 50px;
+    float: left;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(150, 140, 137);
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 10%;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+  }
+  
+  .jointry {
+    padding: 50px;
+    float: left;
+    margin-left: 45%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    background-color: coral;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imagee img {
+    float: left;
+    height: 500px;
+    width: 850px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imageee img {
+    float: left;
+    height: 500px;
+    width: 850px;
+    margin-top: 100px;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imag img {
+    margin-left: 30%;
+    box-shadow: 0 30px 40px 0 rgba(17, 82, 224, 0.2), 0 6px 20px 0 rgba(29, 181, 201, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imag1 img {
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    box-shadow: 0 30px 40px 0 rgba(17, 82, 224, 0.2), 0 6px 20px 0 rgba(29, 181, 201, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }

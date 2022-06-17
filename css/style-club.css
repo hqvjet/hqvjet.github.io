@@ -1,0 +1,186 @@
+.imger {
+    height: 300px;
+    width: auto;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+  
+  div.littleNote {
+    float: right;
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-bottom: 10%;
+    width: 250px;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.textlittleNote {
+    padding: 10px;
+    margin-bottom: 0%;
+  }
+  
+  .club {
+    padding: 50px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 120px;
+    width: 25%;
+    height: 500px;
+    text-align: center;
+    background-color: coral;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .club2 {
+    padding: 50px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(135, 206, 235);
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .club3 {
+    padding: 50px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    width: 25%;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(255, 193, 37);
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .club4 {
+    margin-top: 5%;
+  }
+  
+  .size {
+    width: 70%;
+    height: 900px;
+  
+  }
+  
+  .gaidep {
+    height: 700px;
+  }
+  
+  .image img {
+    float: right;
+    height: 500px;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 20%;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imagee img {
+    float: left;
+    height: 500px;
+    width: 850px;
+    margin-top: 30px;
+    margin-bottom: 20%;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imageee img {
+    float: right;
+    height: 500px;
+    width: 800px;
+    margin-top: 30px;
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .imageeee img {
+    float: left;
+  
+    height: 500px;
+    width: 850px;
+    margin-top: 30px;
+    box-shadow: 0 10px 17px 0 rgba(12, 12, 12, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+  }
+  
+  .text4 {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  
+  #test {
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      top: 0px;
+      left: 0px;
+      background-color: red;
+    }
+  
+    20% {
+      top: 0px;
+      left: 90%;
+      background-color: yellow;
+    }
+  
+    40% {
+      top: 0px;
+      left: 1000px;
+      background-color: blue;
+    }
+  
+    90% {
+      top: 0px;
+      left: 0px;
+      background-color: red;
+    }
+  }
+  
+  .endin4 {
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+  }
