@@ -461,11 +461,16 @@ i.ic {
 
 div.terms {
     width: 100%;
+    height: 20px;
     float: left;
 }
 
 a.terms {
     color: #EBEBEB;
+
+}
+
+p.terms{
     text-align: center;
 }
 
@@ -651,8 +656,27 @@ div.vertical-light{
 
 div.discover-more{
     width: 100%;
-    height: 100px;
+    height: auto;
     float: left;
     background-color: yellow;
     margin-top: 100px;
+    text-align: center;
+}
+
+button.discover-button{
+    font-size: 1.5em;
+    background-color: #1BA4A3;
+    padding: 40px;
+    border-radius: 45%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px black !important;
+    z-index: 10;
+    transition: background-color 1s, color 1s;
+    color: black;
+}
+
+button.discover-button:hover{
+    background-color: #006B0E;
+    color: white;
 }
