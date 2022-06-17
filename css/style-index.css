@@ -658,7 +658,7 @@ div.discover-more{
     width: 100%;
     height: auto;
     float: left;
-    background-color: yellow;
+    background-color: #BA9004;
     margin-top: 100px;
     text-align: center;
 }
@@ -679,4 +679,8 @@ button.discover-button{
 button.discover-button:hover{
     background-color: #006B0E;
     color: white;
+}
+
+img{
+    box-shadow: 0 8px 14px 1px black;
 }

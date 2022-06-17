@@ -5,7 +5,8 @@ html {
 body{
     margin: auto 0;
     box-sizing: border-box;
-    background-color: #ECECEC;
+    background-color: #005D6B;
+    font-family: 'EB Garamond';
 }
 
 .main{
@@ -63,7 +64,7 @@ body{
     height: 80%;
     transform: translate(60%, 10%);
     background-color: #1F2A29;
-    transition: height 1s, opacity 1s;
+    transition: height 0.5s, opacity 1s;
     opacity: 1;
 }
 
@@ -126,6 +127,7 @@ body{
     text-align: center;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .User{
@@ -180,6 +182,8 @@ body{
     margin-left: 15%;
     margin-top: 50px;
     background-color: #F0F0F0;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .pagination-ctn{
@@ -199,7 +203,8 @@ body{
     border-radius: 1000px;
     font-size: 1em;
     margin-left: 5px;
-    transition: padding 1s, font-size 1s;
+    transition: padding 0.5s, font-size 0.5s;
+    color: white;
 }
 
 .pag-item:hover{
@@ -219,7 +224,7 @@ body{
     cursor: pointer;
     color: black;
     text-shadow: 0 0 black;
-    transition: color 1s, text-shadow 0.5s;
+    transition: text-shadow 0.5s;
 }
 
 #topic1:hover, 
@@ -227,8 +232,7 @@ body{
 #topic3:hover, 
 #topic4:hover, 
 #topic5:hover{
-    color: #fff;
-    text-shadow: 2px 2px #005A27;
+    text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.2), 2px 2px 0 rgba(0, 0, 0, 0.19);
 }
 
 #content1, #content2, #content3, #content4, #content5{
@@ -238,7 +242,7 @@ body{
     margin-left: 10%;
     background-color: #fff;
     text-align: left; 
-    box-shadow: 1px 1px 1px 1px #1F2A29;
+    box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #username1, #username2, #username3, #username4, #username5, #type1, #type2, #type3, #type4, #type5{
@@ -359,4 +363,11 @@ p.terms{
 a{
     text-decoration: none;
     color: white;
+}
+
+#margin{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 100px;
+    float: left;
 }

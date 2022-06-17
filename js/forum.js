@@ -2,29 +2,14 @@ let typeAmount = [];
 
 
 
-let currentPage, contentAmount = 12, pageAmount = 0, currentType;
+let currentPage, contentAmount = 45, pageAmount = 0, currentType;
 
 //function for counting contents of each club
 $(document).ready(() => {
     //push data from local storage
 
     //
-    const topics = JSON.parse(`[
-        {"username":"Hoang Quoc Viet","type":"Guitar","topic":"Tư vấn guitar trong tầm 5tr - 10tr","content":"qwe"},
-        {"username":"Hoang Manh cuong","type":"Karate","topic":"Tổ chức trận đấu tập","content":"qwe"},
-        {"username":"Hoang Nam","type":"Đọc sách","topic":"Cách để trở thành người tri thức","content":"qwe"},
-        {"username":"Hoang Diep","type":"Nhảy","topic":"Cách nhảy Hip-Hop","content":"qwe"},
-        {"username":"Nguyen Thi Nguyen","type":"Bóng chuyền","topic":"Chia sẻ kiến thức thi đấu","content":"qwe"},
-        {"username":"Nguyen Thi Thuy","type":"Cầu lông","topic":"Cách để đánh cầu lông một cách chuyên nghiệp","content":"qwe"},
-        {"username":"Hoang Thien Phu","type":"Bóng đá","topic":"Chia sẻ địa điểm sân bóng đá tốt và rẻ","content":"qwe"},
-        {"username":"Nguyen Thi Kim ngan","type":"Esport","topic":"Thông báo đợt tuyển thành viên CLB ESPORT","content":"qwe"},
-        {"username":"Nguyen Hoa Vuong","type":"Kĩ năng","topic":"Vì sao chúng ta ngại trước đám đông ?","content":"qwe"},
-        {"username":"Tran Bao Linh","type":"Kĩ năng","topic":"Làm chủ kĩ năng sáng tạo","content":"qwe"},
-        {"username":"Nguyen Phuong Thao","type":"Guitar","topic":"Tổ chức lengend guitar university","content":"qwe"},
-        {"username":"Nguyen Phuong Nga","type":"Cầu lông","topic":"Tuyển thành viên CLB cầu lông","content":"qwe"}
-    ]`);
-
-    localStorage.setItem("data", JSON.stringify(topics));
+    const topics = JSON.parse( localStorage.getItem("data"));
 
         // 'asdfsd' + i + 'adsf' => `asfdsf${i}asfasd`
         // topics.push(
