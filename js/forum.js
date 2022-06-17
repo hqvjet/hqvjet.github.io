@@ -4,6 +4,9 @@ let typeAmount = [];
 
 let currentPage, contentAmount = 45, pageAmount = 0, currentType;
 
+for (let i = 0; i < contentAmount; ++i) 
+        typeAmount[i] = 0;
+
 //function for counting contents of each club
 $(document).ready(() => {
     //push data from local storage
@@ -26,6 +29,7 @@ $(document).ready(() => {
         // )
 
     $.fn.increaseTypeAmount = (type) => {
+        console.log(type);
         if (type == "Cầu lông")
             ++typeAmount[0];
         else if (type == "Guitar")
@@ -41,7 +45,7 @@ $(document).ready(() => {
         else if (type == "Esport")
             ++typeAmount[6];
         else if (type == "Kỹ năng")
-            ++typeAmount[7];
+                ++typeAmount[7];
         else if (type == "Mã nguồn mở")
             ++typeAmount[8];
         else if (type == "Lập trình")
@@ -52,11 +56,12 @@ $(document).ready(() => {
             ++typeAmount[11];
     }
     //init typeAmount
-    for (let i = 0; i < contentAmount; ++i) 
-        typeAmount[i] = 0;
+    
 
-    for (let i = 0; i < contentAmount; ++i)
+    for (let i = 0; i < contentAmount; ++i){
         $.fn.increaseTypeAmount(topics[i].type);
+    }
+        
 
 
     //function for executing all club type

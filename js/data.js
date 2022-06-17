@@ -7,11 +7,11 @@ const topics = JSON.parse(`[
     {"username":"Nguyen Thi Thuy","type":"Cầu lông","topic":"Cách để đánh cầu lông một cách chuyên nghiệp","content":"qwe"},
     {"username":"Hoang Thien Phu","type":"Bóng đá","topic":"Chia sẻ địa điểm sân bóng đá tốt và rẻ","content":"qwe"},
     {"username":"Nguyen Thi Kim ngan","type":"Esport","topic":"Thông báo đợt tuyển thành viên CLB ESPORT","content":"qwe"},
-    {"username":"Nguyen Hoa Vuong","type":"Kĩ năng","topic":"Vì sao chúng ta ngại trước đám đông ?","content":"qwe"},
-    {"username":"Tran Bao Linh","type":"Kĩ năng","topic":"Làm chủ kĩ năng sáng tạo","content":"qwe"},
+    {"username":"Nguyen Hoa Vuong","type":"Kỹ năng","topic":"Vì sao chúng ta ngại trước đám đông ?","content":"qwe"},
+    {"username":"Tran Bao Linh","type":"Kỹ năng","topic":"Làm chủ Kỹ năng sáng tạo","content":"qwe"},
     {"username":"Nguyen Phuong Thao","type":"Guitar","topic":"Tổ chức lengend guitar university","content":"qwe"},
     {"username":"Ho Xuan Tuan Anh","type":"Cầu lông","topic":"Không ngán một ai","content":"qwe"},
-    {"username":"Lê Tuấn Anh","type":"Kĩ năng","topic":"Chưa hề ngần ngại","content":"qwe"},
+    {"username":"Lê Tuấn Anh","type":"Kỹ năng","topic":"Chưa hề ngần ngại","content":"qwe"},
     {"username":"Nguyễn Chơn Uy","type":"Lập Trình","topic":"Chúa tể lập trình","content":"qwe"},
     {"username":"Nguyễn Phương Dung","type":"Hand in hand","topic":"Giúp người là giúp chình mình","content":"qwe"},
     {"username":"Đặng Ngọc Nghĩa","type":"Đọc sách","topic":"Kiến thức là kho tàng quý giá nhất","content":"qwe"},
@@ -20,7 +20,7 @@ const topics = JSON.parse(`[
     {"username":"Bùi Đình Thông","type":"Bóng đá","topic":"Đôi chân sinh ra là để ghi bàn","content":"qwe"},
     {"username":"Nguyễn Thị Phương Thảo","type":"Lập trình","topic":"Không có gì cản bước được mình code web","content":"qwe"},
     {"username":"Đặng Bá Chí","type":"Bóng đá","topic":"Sân cỏ này là sân chơi của tôi","content":"qwe"},
-    {"username":"Nguyễn Thành Công","type":"Kĩ năng","topic":"Mọi thứ nhỏ nhặt ta có đều là kĩ năng sống","content":"qwe"},
+    {"username":"Nguyễn Thành Công","type":"Kỹ năng","topic":"Mọi thứ nhỏ nhặt ta có đều là Kỹ năng sống","content":"qwe"},
     {"username":"Tống Chính Chung","type":"Hand in hand","topic":"Những trái tim ấm áp sát gần nhau","content":"qwe"},
     {"username":"Lê Văn Cường","type":"Đọc sách","topic":"Từng trang sách là từng thế giới mới","content":"qwe"},
     {"username":"Nguyễn Đại Cường","type":"Cầu lông","topic":"Cây vợt vàng kết liễu","content":"qwe"},
@@ -42,7 +42,7 @@ const topics = JSON.parse(`[
     {"username":"Nguyễn Ngọc Thanh","type":"Guitar","topic":"Hòa vào đám đông","content":"qwe"},
     {"username":"Hồ Văn Sol","type":"Bóng chuyền","topic":"Đôi tay vàng vẩy bóng","content":"qwe"},
     {"username":"Phạm Tuyết Nhi","type":"Bóng đá","topic":"Kiến tạo những bàn thắng","content":"qwe"},
-    {"username":"Nguyễn Viết Cương","type":"Kĩ năng","topic":"Tự tin có thừa khi thời cơ đến","content":"qwe"},
+    {"username":"Nguyễn Viết Cương","type":"Kỹ năng","topic":"Tự tin có thừa khi thời cơ đến","content":"qwe"},
     {"username":"Tống Quế Anh","type":"Guitar","topic":"Vẩy đàn căng như vẩy rau","content":"qwe"}
 ]`);
 
