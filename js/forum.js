@@ -1,31 +1,32 @@
 let typeAmount = [];
 
-const content = [
-    "abc",
-    "xyz",
-    "123"
-]
+
 
 let currentPage, contentAmount = 12, pageAmount = 0, currentType;
 
 //function for counting contents of each club
 $(document).ready(() => {
+    //push data from local storage
+
+    //
+    const topics = JSON.parse(`[
+        {"username":"Hoang Quoc Viet","type":"Guitar","topic":"Tư vấn guitar trong tầm 5tr - 10tr","content":"qwe"},
+        {"username":"Hoang Manh cuong","type":"Karate","topic":"Tổ chức trận đấu tập","content":"qwe"},
+        {"username":"Hoang Nam","type":"Đọc sách","topic":"Cách để trở thành người tri thức","content":"qwe"},
+        {"username":"Hoang Diep","type":"Nhảy","topic":"Cách nhảy Hip-Hop","content":"qwe"},
+        {"username":"Nguyen Thi Nguyen","type":"Bóng chuyền","topic":"Chia sẻ kiến thức thi đấu","content":"qwe"},
+        {"username":"Nguyen Thi Thuy","type":"Cầu lông","topic":"Cách để đánh cầu lông một cách chuyên nghiệp","content":"qwe"},
+        {"username":"Hoang Thien Phu","type":"Bóng đá","topic":"Chia sẻ địa điểm sân bóng đá tốt và rẻ","content":"qwe"},
+        {"username":"Nguyen Thi Kim ngan","type":"Esport","topic":"Thông báo đợt tuyển thành viên CLB ESPORT","content":"qwe"},
+        {"username":"Nguyen Hoa Vuong","type":"Kĩ năng","topic":"Vì sao chúng ta ngại trước đám đông ?","content":"qwe"},
+        {"username":"Tran Bao Linh","type":"Kĩ năng","topic":"Làm chủ kĩ năng sáng tạo","content":"qwe"},
+        {"username":"Nguyen Phuong Thao","type":"Guitar","topic":"Tổ chức lengend guitar university","content":"qwe"},
+        {"username":"Nguyen Phuong Nga","type":"Cầu lông","topic":"Tuyển thành viên CLB cầu lông","content":"qwe"}
+    ]`);
+
+    localStorage.setItem("data", JSON.stringify(topics));
+
         // 'asdfsd' + i + 'adsf' => `asfdsf${i}asfasd`
-        let topics = JSON.parse(`[
-            {"username":"Hoang Quoc Viet","type":"Guitar","topic":"Tư vấn guitar trong tầm 5tr - 10tr"},
-            {"username":"Hoang Manh cuong","type":"Karate","topic":"Tổ chức trận đấu tập"},
-            {"username":"Hoang Nam","type":"Đọc sách","topic":"Cách để trở thành người tri thức"},
-            {"username":"Hoang Diep","type":"Nhảy","topic":"Cách nhảy Hip-Hop"},
-            {"username":"Nguyen Thi Nguyen","type":"Bóng chuyền","topic":"Chia sẻ kiến thức thi đấu"},
-            {"username":"Nguyen Thi Thuy","type":"Cầu lông","topic":"Cách để đánh cầu lông một cách chuyên nghiệp"},
-            {"username":"Hoang Thien Phu","type":"Bóng đá","topic":"Chia sẻ địa điểm sân bóng đá tốt và rẻ"},
-            {"username":"Nguyen Thi Kim ngan","type":"Esport","topic":"Thông báo đợt tuyển thành viên CLB ESPORT"},
-            {"username":"Nguyen Hoa Vuong","type":"Kĩ năng","topic":"Vì sao chúng ta ngại trước đám đông ?"},
-            {"username":"Tran Bao Linh","type":"Kĩ năng","topic":"Làm chủ kĩ năng sáng tạo"},
-            {"username":"Nguyen Phuong Thao","type":"Guitar","topic":"Tổ chức lengend guitar university"},
-            {"username":"Nguyen Phuong Nga","type":"Cầu lông","topic":"Tuyển thành viên CLB cầu lông"}
-        ]`);
-    
         // topics.push(
         //     {
         //         username: 'asdfsdf',
@@ -178,7 +179,11 @@ $(document).ready(() => {
     }
 
     $.fn.loadContent = (Type, skip) => {
-        // console.log(skip);
+        const handleTopic = (id, index) => () => {
+                localStorage.setItem("id", index.toString());
+                window.open("../Forum/content.html");
+        };
+
         let x = 1, idIndex = 1;
         for (let clubIndex = 0; clubIndex < contentAmount; ++clubIndex) {
             if (x - 1 > skip * 5 + 4)
@@ -187,6 +192,7 @@ $(document).ready(() => {
                 ++x;
             else if (topics[clubIndex].type == Type || Type == "Tất cả") {
                 $("#topic" + idIndex.toString()).text(topics[clubIndex].topic);
+                $("#topic" + idIndex.toString()).on("click", handleTopic(idIndex, clubIndex));
                 $("#username" + idIndex.toString()).text("Author: " + topics[clubIndex].username);
                 $("#type" + idIndex.toString()).text("Type: " + topics[clubIndex].type);
                 ++x;
